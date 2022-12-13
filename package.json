@@ -1,0 +1,25 @@
+{
+  "name": "pod",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.10.15",
+    "bootstrap": "^5.2.2",
+    "jquery": "^3.6.1",
+    "next": "13.0.3",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.6.0",
+    "react-dom": "18.2.0",
+    "react-slick": "^0.29.0",
+    "remixicon": "^2.5.0",
+    "slick-carousel": "^1.8.1"
+  }
+}

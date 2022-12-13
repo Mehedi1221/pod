@@ -1,0 +1,130 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.nav_item {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.navitem a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2D2D2D;
+    margin-left: 4rem;
+
+}
+
+.logo {
+    margin-right: 4rem;
+}
+
+
+
+
+.signupBtn {
+    background: #68448F;
+    border-radius: 25px;
+    color: white;
+    padding: 7px 20px;
+    border: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.loginBtn {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #2D2D2D;
+}
+
+@media screen and (max-width: 767px) {
+
+
+    .navitem a {
+        /* display: flex;
+        flex-direction: column;
+        gap: 0px; */
+
+        margin-top: 15px;
+        margin-left: 0 !important;
+
+    }
+
+    .image {
+        height: 30px;
+        width: 100px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width: 993px) {
+
+
+    .navitem a {
+        /* display: flex;
+        flex-direction: column;
+        gap: 0px; */
+
+        margin-top: 15px;
+        margin-left: 0 !important;
+
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 1390px) {
+
+
+    .navitem a {
+        /* display: flex;
+        flex-direction: column;
+        gap: 0px; */
+
+
+        margin-left: 2rem !important;
+
+    }
+
+
+
+
+}

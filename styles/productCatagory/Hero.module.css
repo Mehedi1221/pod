@@ -1,0 +1,152 @@
+.heroContainer {
+    background-image: url('../../public/image/catalog/Rectangle\ 34624111.png');
+    margin-top: 20px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 2rem 3rem 0 2rem;
+}
+
+.heroInfo {
+    padding: 0px 8rem 0 4rem;
+}
+
+.descriptionContainer {
+    padding: 0 14rem 0 0;
+}
+
+
+
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    /* or 180% */
+
+
+    color: #FFFFFF;
+}
+
+
+
+.CatagoryName {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #202020;
+    margin-top: 2rem;
+}
+
+.catagoryListContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 4rem;
+    gap: 3rem;
+}
+
+.Card {
+    /* transition: box-shadow .3s; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #FFFFFF;
+    border: 0.746137px solid #EAEAEC;
+    border-radius: 1.49227px;
+    padding: 2rem 0 2rem 0;
+}
+
+.Card:hover {
+    transition: all 0.3s ease-out;
+    box-shadow: 5px 10px 11px rgba(33, 33, 33, .2);
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    .hero {
+        display: flex;
+        align-items: center;
+        /* padding: 2rem 3rem 0 2rem; */
+        flex-direction: column-reverse;
+    }
+
+
+    .catagoryListContainer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 4rem;
+        gap: 3rem;
+    }
+
+
+    .heroInfo {
+        padding: 2rem 2rem 2rem 4rem;
+    }
+
+    .descriptionContainer {
+        padding: 0 0rem 0 0;
+    }
+
+    .image {
+        height: 300px;
+        width: 285px;
+    }
+
+}
+
+
+@media screen and (max-width: 993px) {
+    .hero {
+        display: flex;
+        align-items: center;
+        /* padding: 2rem 3rem 0 2rem; */
+        flex-direction: column-reverse;
+    }
+
+
+    .catagoryListContainer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 4rem;
+        gap: 3rem;
+    }
+
+
+    .heroInfo {
+        padding: 2rem 2rem 2rem 4rem;
+    }
+
+    .descriptionContainer {
+        padding: 0 0rem 0 0;
+    }
+
+    .image {
+        height: 300px;
+        width: 285px;
+    }
+
+}

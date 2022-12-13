@@ -1,0 +1,130 @@
+.title {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #202020;
+}
+
+.description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    /* identical to box height, or 108% */
+
+    text-align: center;
+
+    color: #565656;
+}
+
+.MainCardContainer {
+    background-image: url('../../public//image/line1.5x.png');
+    background-repeat: no-repeat;
+    background-position: left 225px top 40px;
+}
+
+.CardContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+
+
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.heading {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #202020;
+}
+
+.desc {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: center;
+
+    color: #565656;
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+    .CardContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+        flex-direction: column;
+
+
+    }
+
+}
+
+
+@media screen and (max-width: 993px) {
+
+    .CardContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+        flex-direction: column;
+
+
+    }
+
+}
+
+@media screen and (max-width: 1390px) {
+
+    .CardContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+        /* flex-direction: column; */
+        padding-left: 40px;
+        padding-right: 40px;
+
+
+    }
+
+    .MainCardContainer {
+        background-image: none;
+
+    }
+
+
+}

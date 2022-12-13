@@ -1,0 +1,161 @@
+.main {
+
+    background: #674399;
+    padding-top: 6rem;
+}
+
+.title {
+    font-family: 'Elsie';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+}
+
+.description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    /* identical to box height, or 158% */
+
+    text-align: center;
+
+    color: #ECECEC;
+
+}
+
+.reviewList {
+    display: flex;
+    gap: 2rem;
+    margin-top: 7rem;
+    padding-bottom: 5rem;
+    justify-content: space-between;
+
+}
+
+.card {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 350px;
+
+}
+
+
+.cardContainer {
+    display: flex;
+    gap: 5px;
+    margin-top: 2.5rem;
+}
+
+.cardContainer i {
+    color: #48FF7B;
+}
+
+.reviewTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #202020;
+
+}
+
+.descript {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    text-align: center;
+
+    color: #565656;
+
+}
+
+.Name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    text-align: center;
+
+    color: #202020;
+}
+
+.Location {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #565656;
+    text-align: center;
+}
+
+.Review {
+    margin-top: 10px;
+}
+
+.CardFooter {
+    margin-top: 3rem;
+
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    .reviewList {
+        display: flex;
+        gap: 2rem;
+        margin-top: 7rem;
+        padding-bottom: 5rem;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+}
+
+
+@media screen and (max-width: 993px) {
+    .reviewList {
+        display: flex;
+        gap: 2rem;
+        margin-top: 7rem;
+        padding-bottom: 5rem;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+}

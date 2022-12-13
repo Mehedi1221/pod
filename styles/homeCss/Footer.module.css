@@ -1,0 +1,117 @@
+.heading {
+    font-family: 'Elsie';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 50px;
+    /* identical to box height, or 156% */
+
+    letter-spacing: 0.02em;
+
+    color: #202020;
+    text-align: center;
+}
+
+.headingContainer {
+    padding-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn {
+    background: #68448F;
+    border-radius: 30px;
+    width: 192px;
+    height: 60px;
+    font-family: 'Elsie';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+    border: none;
+}
+
+.ListContainer {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    gap: 6rem;
+}
+
+.ListContainer ul li {
+    list-style: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    /* identical to box height, or 178% */
+
+
+    color: #6A6C6D;
+}
+
+.listHeading {
+    font-family: 'Elsie' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 23px !important;
+    /* identical to box height */
+
+
+    color: #000000 !important;
+    margin-bottom: 1.4rem !important;
+
+}
+
+.BottomFooter {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    /* identical to box height, or 190% */
+
+    text-align: center;
+
+    color: #101010;
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    .ListContainer {
+        display: flex;
+        justify-content: center;
+        padding: 5rem;
+        gap: 1rem;
+        flex-direction: column;
+
+    }
+
+}
+
+@media screen and (max-width: 993px) {
+    .ListContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* justify-content: center;
+        padding: 5rem;
+        gap: 1rem;
+        flex-direction: column; */
+
+    }
+
+}

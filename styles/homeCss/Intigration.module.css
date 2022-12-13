@@ -1,0 +1,140 @@
+.maindiv {
+
+    background-color: #FCFBFB;
+    padding-top: 8rem;
+    padding-bottom: 7rem;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+
+}
+
+
+
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 60px;
+    /* or 125% */
+
+    letter-spacing: 0.02em;
+
+    color: #202020;
+}
+
+.description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    /* or 158% */
+
+
+    color: #565656;
+}
+
+.btn {
+    background: #68448F;
+    border-radius: 30px;
+    width: 236px;
+    height: 60px;
+    font-family: 'Elsie';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+    border: none;
+    margin-top: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    .mainContainer {
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        align-items: center;
+
+    }
+
+
+
+    .description {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15xpx;
+        line-height: 25px;
+        /* or 158% */
+
+
+        color: #565656;
+    }
+
+    .title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 40px;
+        /* or 125% */
+
+        letter-spacing: 0.02em;
+
+        color: #202020;
+    }
+
+
+    .image {
+        width: 250px;
+        height: 300px;
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 993px) {
+    .mainContainer {
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        align-items: center;
+
+    }
+
+
+    /* .image {
+        width: 350px;
+        height: 300px;
+
+    } */
+
+
+}
